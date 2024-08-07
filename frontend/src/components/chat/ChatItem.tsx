@@ -77,7 +77,7 @@ const ChatItem = ({
       }}
     >
       <Avatar sx={{ ml: "0", bgcolor: "black", color: "white" }}>
-        Raju
+        {auth?.user?.name}
       </Avatar>
       <Box>
         {!messageBlocks && (
