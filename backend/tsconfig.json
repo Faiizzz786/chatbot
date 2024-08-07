@@ -1,0 +1,33 @@
+// // {
+// //   "compilerOptions": {
+// //     "module": "NodeNext",
+// //     "moduleResolution": "NodeNext",
+// //     "target": "ES2022",
+// //     "sourceMap": true,
+// //     "outDir": "dist",
+// //     "allowSyntheticDefaultImports": true
+// //   },
+// //   "include": ["src/**/*.ts", "src/index.js", "src/config/openai-config.js", "src/controllers/user-controllers.js", "src/controllers/chat-controllers.js", "src/db/connection.js", "src/models/User.js", "src/routes/user-routes.js", "src/routes/index.js", "src/routes/chat-routes.js", "src/utils/validators.js", "src/utils/token-manager.js", "src/utils/constants.js", "src/app.js"],
+// //   "exclude": [
+// //     "node_modules",  // Commonly excluded folders
+// //     "dist"
+// //   ]
+// // }
+// {
+//   "compilerOptions": {
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "target": "ES2022",
+//     "sourceMap": true,
+//     "outDir": "dist",
+//     "allowSyntheticDefaultImports": true
+//   },
+//   //"include": ["src/**/*.ts", "src/index.ts"],
+//   "include": [
+//     "src/**/*.ts"
+//   ],
+// "exclude": [
+//   "node_modules",  // Commonly excluded folders
+//   "dist"
+// ]
+// }
