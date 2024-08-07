@@ -17,9 +17,9 @@ const Footer = () => {
             <Link
               style={{ color: "white" }}
               className="nav-link"
-              to={"https://youtube.com/indiancoders"}
+              to={"https://www.linkedin.com/in/md-faizan-raza-adil/"}
             >
-              Indian Coders
+              Faizan
             </Link>
           </span>
           💘
