@@ -8,12 +8,9 @@ config();
 const app = express();
 
 //middlewares
-app.use(cors({ origin: "https://chatbot-ten-lac.vercel.app", credentials: true }));
+app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(express.json());
-
-//remove it in production
-app.use(morgan("dev"));
 
 app.use("/api/v1", appRouter);
 
